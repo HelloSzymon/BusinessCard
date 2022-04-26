@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1546074F2815F57300820BC8 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546074E2815F57300820BC8 /* AboutMeView.swift */; };
+		154607512815FFDB00820BC8 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154607502815FFDB00820BC8 /* ContactView.swift */; };
+		154607532816003600820BC8 /* TechStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154607522816003600820BC8 /* TechStackView.swift */; };
 		154FE53927D28F5A00879B76 /* SzymonBusinessCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FE53827D28F5A00879B76 /* SzymonBusinessCardApp.swift */; };
-		154FE53B27D28F5A00879B76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FE53A27D28F5A00879B76 /* ContentView.swift */; };
+		154FE53B27D28F5A00879B76 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154FE53A27D28F5A00879B76 /* MainView.swift */; };
 		154FE53D27D28F5C00879B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154FE53C27D28F5C00879B76 /* Assets.xcassets */; };
 		154FE54027D28F5C00879B76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154FE53F27D28F5C00879B76 /* Preview Assets.xcassets */; };
+		154FE54827D2968000879B76 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154FE54727D2968000879B76 /* Pacifico-Regular.ttf */; };
+		154FE54D27D2993800879B76 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154FE54C27D2993800879B76 /* Launch Screen.storyboard */; };
+		15937A1927D572C4008A2B7D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15937A1827D572C4008A2B7D /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1546074E2815F57300820BC8 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		154607502815FFDB00820BC8 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		154607522816003600820BC8 /* TechStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechStackView.swift; sourceTree = "<group>"; };
 		154FE53527D28F5A00879B76 /* SzymonBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SzymonBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		154FE53827D28F5A00879B76 /* SzymonBusinessCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SzymonBusinessCardApp.swift; sourceTree = "<group>"; };
-		154FE53A27D28F5A00879B76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		154FE53A27D28F5A00879B76 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		154FE53C27D28F5C00879B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		154FE53F27D28F5C00879B76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		154FE54727D2968000879B76 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		154FE54B27D2985800879B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		154FE54C27D2993800879B76 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		15937A1827D572C4008A2B7D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		154FE53727D28F5A00879B76 /* SzymonBusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				154FE54B27D2985800879B76 /* Info.plist */,
+				154FE54627D2962500879B76 /* Fonts */,
 				154FE53827D28F5A00879B76 /* SzymonBusinessCardApp.swift */,
-				154FE53A27D28F5A00879B76 /* ContentView.swift */,
+				154FE53A27D28F5A00879B76 /* MainView.swift */,
+				154607522816003600820BC8 /* TechStackView.swift */,
+				1546074E2815F57300820BC8 /* AboutMeView.swift */,
+				154607502815FFDB00820BC8 /* ContactView.swift */,
+				15937A1827D572C4008A2B7D /* InfoView.swift */,
+				154FE54C27D2993800879B76 /* Launch Screen.storyboard */,
 				154FE53C27D28F5C00879B76 /* Assets.xcassets */,
 				154FE53E27D28F5C00879B76 /* Preview Content */,
 			);
@@ -65,6 +85,14 @@
 				154FE53F27D28F5C00879B76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		154FE54627D2962500879B76 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				154FE54727D2968000879B76 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154FE54827D2968000879B76 /* Pacifico-Regular.ttf in Resources */,
 				154FE54027D28F5C00879B76 /* Preview Assets.xcassets in Resources */,
+				154FE54D27D2993800879B76 /* Launch Screen.storyboard in Resources */,
 				154FE53D27D28F5C00879B76 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				154FE53B27D28F5A00879B76 /* ContentView.swift in Sources */,
+				154FE53B27D28F5A00879B76 /* MainView.swift in Sources */,
+				1546074F2815F57300820BC8 /* AboutMeView.swift in Sources */,
+				15937A1927D572C4008A2B7D /* InfoView.swift in Sources */,
+				154607532816003600820BC8 /* TechStackView.swift in Sources */,
+				154607512815FFDB00820BC8 /* ContactView.swift in Sources */,
 				154FE53927D28F5A00879B76 /* SzymonBusinessCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +306,7 @@
 				DEVELOPMENT_TEAM = 25JMG53SY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SzymonBusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +336,7 @@
 				DEVELOPMENT_TEAM = 25JMG53SY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SzymonBusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
