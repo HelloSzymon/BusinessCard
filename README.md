@@ -6,7 +6,8 @@
 
 ## General info
 
-More developed business card inspired by London App Brewery wrote in SwiftUI. In the app you can info about myself; tech stack and contact info. Tech stack will be updated as knowledge and experience are gained.
+More developed business card inspired by London App Brewery wrote in SwiftUI. In the app you can info about myself; tech stack and contact info. 
+Tech stack will be updated as knowledge and experience are gained.
 
 
 ## Demo
